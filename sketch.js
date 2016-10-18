@@ -10,7 +10,7 @@ function setup() {
   background(255,0,0);
 }
 
-function mousePressed() {
+function mouseClicked() {
   if ( song.isPlaying() ) { // .isPlaying() returns a boolean
     song.stop();
     background(255,0,0);
